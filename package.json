@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm install fs"
+    "test": "npm install fs",
     "start": "node restAPI_dev.js"
   },
   "author": "",
