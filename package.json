@@ -1,0 +1,16 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "restAPI_dev.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install fs"
+  },
+  "author": "",
+  "license": "ISC"
+}
