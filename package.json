@@ -2,7 +2,6 @@
   "name": "finalproject",
   "version": "1.0.0",
   "description": "",
-  "start": "node restAPI_dev.js",
   "main": "restAPI_dev.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -11,6 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "npm install fs"
+    "start": "node restAPI_dev.js"
   },
   "author": "",
   "license": "ISC"
