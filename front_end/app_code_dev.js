@@ -32,13 +32,13 @@ var updateView = async (button) => {
     }
    
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    const response = await fetch(proxyurl+"https://cus1172finalproject.herokuapp.com/demo/index_dev.html");
+    const response = await fetch(proxyurl+"https://${URL}/api/");
     const data = await fetch(api);
     const model = await data.json();
     render_view(model);
 } 
 
-//Renders view on HTML page
+//Renders view on HTML page/
 var render_view = (model) => {
     var source = document.querySelector("#show_results_view").innerHTML;
     var template = Handlebars.compile(source);
