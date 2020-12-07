@@ -80,7 +80,8 @@ app.get('/api/combined_query/:qname/:qlevel', (req,res) => {
 app.use('/demo',express.static('front_end'));
 
 //Start server
-app.listen(3000, function() {
+var PORT = process.env.PORT || 3000;
+app.listen(PORT, function() {
     console.log("Server is running");
     //console.log(course);
 })
