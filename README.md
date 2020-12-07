@@ -2,6 +2,7 @@
 My name is Tayseer Rahman, and this is my final project for CUS1172 - Web Application Development. To access this application, please use one of the two links presented here:
 
 Heroku: https://cus1172finalproject.herokuapp.com/demo/index_dev.html
+
 Netlify: I was not able to get the Netlify link up and running in time.
 
 The page features 5 query searches, which works as follows:
