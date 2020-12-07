@@ -29,13 +29,14 @@ var updateView = async (button) => {
         let queryName = document.querySelector('#nameQuery').value;
         let queryLevel = document.querySelector('#levQuery').value;
         api = `https://${URL}/api/combined_query/${queryName}/${queryLevel}`;
-    }
+    } 
+    //const data = await fetch(api);
+    //const model = await data.json();
+    //render_view(model);
     
-    const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    const response = await fetch(proxyurl+`https://cus1172finalproject.herokuapp.com/api`);
-    
-    const data = await fetch(api);
-    const model = await data.json();
+    const proxyurl= "https://cors-anywhere.herokuapp.com/"
+    const data= await fetch(proxyurl+api);
+    const model= await data.json();
     render_view(model);
 } 
 
