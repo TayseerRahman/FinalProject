@@ -30,10 +30,7 @@ var updateView = async (button) => {
         let queryLevel = document.querySelector('#levQuery').value;
         api = `https://${URL}/api/combined_query/${queryName}/${queryLevel}`;
     }
-    
-    const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    const data = await fetch(proxyurl+api);
-
+   
     const data = await fetch(api);
     const model = await data.json();
     render_view(model);
