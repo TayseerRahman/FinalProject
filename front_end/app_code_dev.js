@@ -31,6 +31,8 @@ var updateView = async (button) => {
         api = `https://${URL}/api/combined_query/${queryName}/${queryLevel}`;
     }
    
+    const proxyurl = "https://cors-anywhere.herokuapp.com/";
+    const response = await fetch(proxyurl+"https://cus1172finalproject.herokuapp.com/demo/index_dev.html");
     const data = await fetch(api);
     const model = await data.json();
     render_view(model);
