@@ -2,6 +2,9 @@
 //CUS1172 - Final Project
 //app_code_dev.js
 
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
+const data = await fetch(proxyurl+api);
+
 var URL = window.location.hostname;
 var updateView = async (button) => {
     //Code Query
