@@ -3,9 +3,13 @@ This is the final project I created for CUS1172 - Web Application Development. I
 
 Heroku: https://cus1172finalproject.herokuapp.com/demo/index_dev.html
 
-The page features 5 query searches, which works as follows:
-1. Search by course code:
+As mentioned above, this page works by utilizing the following 5 query searches:
+1. Search by course code
+
 2. Search by course title
+
 3. Search by course instructor
+
 4. Search by course level
+
 5. Search by course instructor and level
